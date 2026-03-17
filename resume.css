@@ -1,0 +1,61 @@
+/* RESUME */
+.resume-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 60px 30px;
+}
+.resume-hero {
+  text-align: center;
+  margin-bottom: 40px;
+}
+.resume-hero h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+.resume-hero p {
+  margin: 8px 0;
+  color: #c7c7c7;
+}
+.resume-section {
+  background: #222;
+  padding: 20px 25px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+.resume-section h2 {
+  margin-top: 0;
+  color: #4da3ff;
+}
+.resume-section ul {
+  margin: 0;
+  padding-left: 1.2rem;
+}
+.resume-section li {
+  margin-bottom: 8px;
+}
+.resume-actions {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  margin: 25px 0;
+}
+.button {
+  text-decoration: none;
+  background: #4da3ff;
+  color: #111;
+  padding: 10px 18px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+.button:hover {
+  background: #2e7fd6;
+}
+
+@media (max-width: 768px) {
+  .about, #projects, #contact, .resume-container {
+    padding: 40px 20px;
+  }
+  .resume-hero h1 {
+    font-size: 2rem;
+  }
+}

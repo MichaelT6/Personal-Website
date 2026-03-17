@@ -104,3 +104,10 @@ background:#111;
   text-decoration: none;
   color: #111;
 }
+
+@media (max-width: 768px) {
+  .about, #projects, #contact, .resume-container {
+    padding: 40px 20px;
+  }
+}
+
